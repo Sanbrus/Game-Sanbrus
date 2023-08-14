@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+  
+html{
+font-size: 62.5%;
+font-family: 'Roboto', sans-serif;
+}
+
+body{
+color: white;
+background-image:url(https://scontent.fmex23-1.fna.fbcdn.net/v/t39.30808-6/317072822_465705869008674_1215643252534170178_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=be3454&_nc_eui2=AeFw88vJK6L9i08xrpcFR4TNJQxC4cFcyL8lDELhwVzIv_fEnb1_t_CaTUkXRHwLSSeSeOM6rrAu5Fwct_8lHtVP&_nc_ohc=R3rvAUjBH4gAX-8uibB&_nc_ht=scontent.fmex23-1.fna&oh=00_AfCb12_-u5thAd8s4kEjw8hOf7LjzVhvtC0wyg4h1z7PIw&oe=64DF2D07);
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+
+main{
+ background-color: rgba(4, 35, 24, 0.744);
+ height: 95%;
+ margin: 20px;
+}
+
+p{
+    font-weight: bold;
+}
+
+h1{
+    margin: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+button{
+    background-color: black;
+    margin: 20px;
+    border: 5px solid white;
+    border-radius: 10px;
+    
+}
+.Instrucion-game{
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+.container-text{
+    display: flex;
+    justify-content: space-between;
+    background-attachment:scroll;
+}
+a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+h3{
+    font-size: 20px;
+    margin: 20px;
+}
+.allInformation{
+    font-size: 18px;
+    margin-left: 20px;
+}
+.img-game{
+    height: 350px;
+    width: 700px;
+    margin: 30px;
+}
+.introduction{
+    display: flex;
+    line-height: 50px;
+}
+.errores{
+    color: rgb(0, 255, 229);
+    line-height: 50px;
+
+}
+.text-er{
+margin: 25px;
+}
+@media only screen and (max-width: 600px) {
+
+    .introduction{
+        display: inline;
+        line-height: 50px;
+    }
+    .img-game{
+        height: 150px;
+        width: 300px;
+        margin: 30px;
+    }
+  }
