@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="un juego">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="shortcut icon" href="./src/icon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,400&display=swap" rel="stylesheet">
+        <title>Sanbrus-juego</title>
+    </head>
+    <body>
+        <div class="contenedor">
+            <div class="logo">
+                <img src="./src/img2.jpg" alt="logotipo" class="img-logo" height="100px" width="240px">
+            </div>
+
+            <p class="Nivel-container">Niveles:<span id="numero">50</span></p>
+
+            <canvas id="game"></canvas>
+            <div class="controles">
+                <button id="arriba"value="38">↑</button>
+                <button id="izquierda" value="37">←</button>
+                <button id="derecha" value="39">→</button>
+                <button id="abajo" value="40" >↓</button>
+            </div>
+            <div class="mensajes">
+                
+                <p>Vidas : <span id="lives"></span></p>
+                <p>Tiempo : <span id="time"></span></p>
+            </div>
+            
+        </div>
+        <script src="./Script/maps.js"></script>
+        <script src="./Script/game.js"></script>
+    </body>
+</html>
